@@ -2,4 +2,4 @@ version: 0.1
 phases:
   build:
     commands:
-      - mvn verify sonar:sonar -Dsonar.projectKey=projectKey -Dsonar.organization=projectOrg -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=token 
+      - mvn verify sonar:sonar -Dsonar.projectKey=Bolick-dev -Dsonar.organization=Bolick-dev -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=tokenaf10199ef9898b042e3056720913d8b8909aec82 
